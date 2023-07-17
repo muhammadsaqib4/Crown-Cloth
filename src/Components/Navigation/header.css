@@ -6,30 +6,33 @@ a{
     text-decoration: none;
 }
 .Navbar{
-    overflow: hidden;
-    box-shadow: 1px 1px 1px;
+    /* overflow: hidden; */
+    box-shadow: 3px 1px 15px -9px;
     display: flex;
     justify-content: space-between;
-    /* width: 100%; */
     padding: 15px;
+    /* margin: 0; */
 }
 
-.logo{
+
+
+
+.logo img{
     display: flex;
-    flex-direction: row;
-    padding: 10px;
-    /* margin-top: 15px; */
+    height: 50px;
+    margin-left: 40px;
+    align-items: center;
     
 }
 .menu{
     display: flex;
+    margin-bottom: 0px;
     margin-right: 5%;
-    
-        
-    
-    ;
-    
+    /* overflow: clip  ; */
+    align-items: center;
+    text-decoration: 0px;
 }
+
 .menu ul{
     
     display: inline-block;
@@ -40,8 +43,7 @@ a{
 }
 
 .menu li {
-
-    /* padding: 10px; */
+    text-decoration: none;
     display: block;
     font-size: 18px;
     padding: 10px 20px 10px 20px;
@@ -50,7 +52,7 @@ a{
 }
 
 .menu li:hover{
-    background-color: rgb(233, 228, 228);
+    /* color: rgb(233, 228, 228); */
     border-radius: 5px;
     /*margin: 5px 0px 5px 0px;
     */-webkit-border-radius: 10px;

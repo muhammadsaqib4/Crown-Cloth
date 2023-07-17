@@ -1,0 +1,172 @@
+.App {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    /* background:gainsboro; */
+  }
+  .App h2{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+    margin-top: 2%;
+  }
+  .container{
+    margin: 1% 5% 2% 5%;
+  }
+  .gridBox > div{
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*border: solid 2px;
+    */cursor: pointer;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    background-repeat:no-repeat;
+    transition: ease-out .6s;
+    -webkit-transition: ease-out .6s;
+    -moz-transition: ease-out .6s;
+    -ms-transition: ease-out .6s;
+    -o-transition: ease-out .6s;
+  }
+  
+  .gridBox{
+    
+    /* width: auo; */
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(10, 7.5vh);
+    
+    overflow: hidden;
+    justify-content: center;
+    gap: 18px;
+    padding: 10px;
+    
+    
+  }
+  
+  .gridBox > div{
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*border: solid 2px;
+    */cursor: pointer;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    background-repeat:no-repeat;
+    transition: ease-out .6s;
+    -webkit-transition: ease-out .6s;
+    -moz-transition: ease-out .6s;
+    -ms-transition: ease-out .6s;
+    -o-transition: ease-out .6s;
+  }
+  
+  .gridBox > div:hover{
+   background-size: cover;
+   animation: ease-in-out 2s 3s 3s iteration-count direction fill-mode;
+   /*transition: ease-in-out .5s;
+   /*=*/-webkit-animation: ease-in-out 4s timing-function delay iteration-count direction fill-mode;
+   -webkit-animation: ease-in-out 2s 3s 3s iteration-count direction fill-mode;
+}
+  
+  
+  
+  
+  .box-box1{
+    grid-column: 1/ 5;
+    grid-row: 1/5 ;
+  }
+  .box-box2{
+    grid-column: 5/9;
+    grid-row: 1/5
+  }
+  .box-box3{
+    grid-column: 9/13;
+    grid-row: 1/5
+  }
+  
+  .box-box4{
+    grid-column: 1/ 7;
+    grid-row: 5/9
+    
+  }
+  .box-box5{
+    grid-column: 7/ 13;
+    grid-row: 5/9
+    
+  }
+  
+  
+  #img{
+    background-position: center center ;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    /* transition: ease-in-out .5s; */
+  }
+  
+  
+  #img-img1{
+    background-image: url(	https://www.crown-clothes.com/images/sneakers.jpg);
+  }
+  #img-img2{
+    background-image: url(https://www.crown-clothes.com/images/hats.jpg);
+  }
+  #img-img3{
+    background-image: url(https://www.crown-clothes.com/images/jackets.jpg);
+  }
+  #img-img4{
+    background-image: url(https://www.crown-clothes.com/images/men.jpg);
+  }
+  #img-img5{
+    background-image: url(https://www.crown-clothes.com/images/womens.jpg);
+  }
+  
+  /* .caption{
+    /* color: white; */
+    /* background-color: white; */
+    /* padding: 4px; */
+    /* border: 2px solid white; */
+    /* margin: 50% 7% 1% 7%; */
+  
+  .caption{
+    display: flex;
+    flex-direction: column;
+    opacity: .8;
+    line-height: 1.4em;
+    background-color: white;
+    --length:7em;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* justify-content: space-evenly; */
+    justify-content: center;
+    height: calc(var(--length) - 1.3em); 
+     width: calc(var(--length) + 1.5em);
+     /* position: inherit; */
+     
+  }
+  .caption:hover{
+    transform: scale(2s);
+    transition: .4s;
+    opacity: 1;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+    -webkit-transform: scale(2s);
+    -moz-transform: scale(2s);
+    -ms-transform: scale(2s);
+    -o-transform: scale(2s);
+  }
