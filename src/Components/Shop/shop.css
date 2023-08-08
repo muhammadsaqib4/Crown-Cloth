@@ -1,81 +1,79 @@
-.productName h1{
-    text-align: center;
-    font-family: Agency FB;
-    font-stretch: extra-expanded;
-    margin: 2% 0% 2% 0%;
-    font-size: 40px;
-  }
-  
-  .productItems{
-    display: grid;
-    gap: 2rem 2rem;
-    grid-template-columns: 270px 270px 270px 270px;
-    grid-template-rows: 300px 300px;
-    justify-content: center;
-  }
-  .ImgDiv{
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .productImg{
-    text-align: center;
-    width: 100%;
-    height: 95%;
-    background-size: cover;
-    display: flex; 
-    justify-content: center;
-    align-items: last baseline;
-    background-position: center center;
-    /* justify-content: space-between; */
-  }
+.productName h1 {
+  text-align: center;
+  font-family: Agency FB;
+  font-stretch: extra-expanded;
+  margin: 2% 0% 2% 0%;
+  font-size: 40px;
+}
 
-  .productImg:hover .addToCart{
-    background-color: white;
-    display: none;
-    flex-direction: column;
-    padding: 10px 55px 10px 55px;
-    margin-bottom: 2em;
-    opacity: .7;
-    cursor: pointer;
-    display: block;
-    transition: ease-out .6s;
-  }
+.productItems {
+  display: grid;
+  gap: 2rem 2rem;
+  grid-template-columns: 270px 270px 270px 270px;
+  grid-template-rows: 300px 300px;
+  justify-content: center;
+}
+.ImgDiv {
+  display: flex;
+  flex-direction: column;
+}
 
+.productImg img {
+  text-align: center;
+  width: 100%;
+  height: 20em;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: last baseline;
+  background-position: center center;
+  justify-content: space-between;
+}
 
-  .addToCart{
-    display: none;
+.productImg:hover {
+  background-color: white;
+  display: none;
+  flex-direction: column;
+  padding: 10px 55px 10px 55px;
+  margin-bottom: 2em;
+  opacity: 0.7;
+  cursor: pointer;
+  display: block;
+  /* transition: ease-out 0.6s; */
+  /* -webkit-transition: ease-out 0.6s;
+  -moz-transition: ease-out 0.6s;
+  -ms-transition: ease-out 0.6s;
+  -o-transition: ease-out 0.6s; */
+}
+.addToCart {
+  display: flex;
+  justify-content: center;
+}
 
-  }
+.productCaption {
+  display: flex;
+  justify-content: space-between;
+  font-family: Agency FB;
+  color: rgb(54, 50, 50);
+  height: 0em;
+}
 
-  
-  .productCaption{
-   display: flex;
-    justify-content: space-between;
-    font-family: Agency FB;
-    color: rgb(54, 50, 50);
-    height: 0em;
-  }
-  
-  .Img1{
-    background-image: url('https://www.crown-clothes.com/images/black-shearling.jpg');
-  }
-  
-  .Img2{
-    background-image: url('https://www.crown-clothes.com/images/blue-jean-jacket.jpg');
-  }
-  .Img3{
-    background-image: url('https://www.crown-clothes.com/images/grey-jean-jacket.jpg');
-  }
-  .Img4{
-    background-image: url('https://www.crown-clothes.com/images/brown-shearling.jpg');
-  }
-  .Img5{
-    background-image: url('https://www.crown-clothes.com/images/brown-shearling.jpg');
-  }
-  .Img6{
-    background-image: url('https://www.crown-clothes.com/images/brown-trench.jpg');
-  }
-  
-  
-  
+/* .Img1 {
+  background-image: url("https://www.crown-clothes.com/images/black-shearling.jpg");
+}
+
+.Img2 {
+  background-image: url("https://www.crown-clothes.com/images/blue-jean-jacket.jpg");
+}
+.Img3 {
+  background-image: url("https://www.crown-clothes.com/images/grey-jean-jacket.jpg");
+}
+.Img4 {
+  background-image: url("https://www.crown-clothes.com/images/brown-shearling.jpg");
+}
+.Img5 {
+  background-image: url("https://www.crown-clothes.com/images/brown-shearling.jpg");
+}
+.Img6 {
+  background-image: url("https://www.crown-clothes.com/images/brown-trench.jpg");
+} */

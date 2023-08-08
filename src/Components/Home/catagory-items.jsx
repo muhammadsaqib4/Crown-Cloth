@@ -1,8 +1,13 @@
 import { Fragment } from "react";
 import './catagory-items.css';
+import { Link} from "react-router-dom";
+// import {ProductContext} from "../Context/ProductContext/ProductContext";
+// import { useContext } from "react";
 
 
 function Home(){
+
+  // const [setCurrentProduct] = useContext(ProductContext);
     return(
         <Fragment>
             <div className="App">
@@ -21,8 +26,8 @@ function Home(){
               </div>
             </div>
             <div href="/" className="box-box3" id="img-img3">
-              <div href="/" className="caption">
-                <span>Jackets</span> <span>SHOP NOW</span>
+              <div className="caption">
+                <Link to="/Shop"><span>Jackets</span> <span>SHOP NOW</span></Link>
               </div>
             </div>
             <div href="/" className="box-box4" id="img-img4">

@@ -62,7 +62,7 @@
     -moz-border-radius: 8px;
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
-    background-repeat:no-repeat;
+    
     transition: ease-out .6s;
     -webkit-transition: ease-out .6s;
     -moz-transition: ease-out .6s;
@@ -72,10 +72,15 @@
   
   .gridBox > div:hover{
    background-size: cover;
+   transform: scale();
    animation: ease-in-out 2s 3s 3s iteration-count direction fill-mode;
    /*transition: ease-in-out .5s;
    /*=*/-webkit-animation: ease-in-out 4s timing-function delay iteration-count direction fill-mode;
    -webkit-animation: ease-in-out 2s 3s 3s iteration-count direction fill-mode;
+   -webkit-transform: scale();
+   -moz-transform: scale();
+   -ms-transform: scale();
+   -o-transform: scale();
 }
   
   
